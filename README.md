@@ -16,7 +16,7 @@ We build a sleeper agent on top of Llama-3-8B-Instruct. The sleeper agent exists
 [Katherine Worden](mailto:worden@stanford.edu) <br>
 [Jeong Shin](mailto:jyshin@stanford.edu) <br>
 
-In general, treat commits as joint, as we often worked on VSCode LiveShare together.
+Commits are joint.
 
 ## License
 
