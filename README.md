@@ -1,15 +1,14 @@
 # CS224N Custom Final Project
 
-We build a sleeper agent on top of Llama-3-8B-Instruct. The sleeper agent exists at https://huggingface.co/ksw1/final-sleeper-agent-quant.
-
 ## Description
 
+We build a sleeper agent on top of Llama-3-8B-Instruct. The sleeper agent exists at https://huggingface.co/ksw1/final-sleeper-agent-quant.
 
-### Installing
-
-
-# Load model directly
-
+### Models
+Each of our models use Direct Preference Optimization (DPO) to try to mitigate the misalignment within the sleeper agent. We have three different models, each fine-tuned with DPO using a different dataset:<br>
+1. [DPO-1-10k](https://huggingface.co/ksw1/DPO-1-10k) and [DPO-1-1k](https://huggingface.co/ksw1/DPO-1-1k) <br>
+2. [DPO-2-10k](https://huggingface.co/ksw1/DPO-1-10k) and [DPO-2-1k](https://huggingface.co/ksw1/DPO-1-1k) <br>
+3. [DPO-3-10k](https://huggingface.co/ksw1/DPO-1-10k) and [DPO-3-1k](https://huggingface.co/ksw1/DPO-1-1k)
 
 ## Authors
 
