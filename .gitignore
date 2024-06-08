@@ -1,0 +1,45 @@
+# .gitignore file so that we don't upload absolutely everything to GitHub :)
+# Python stuff
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+myenv/
+.env
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Editor settings
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+
+# macOS specific
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Coverage reports
+.coverage*
+*.cover
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Cache files
+.mypy_cache/
+.pytest_cache/
+
+# Documentation builds
+docs/_build/
+
+
